@@ -1,0 +1,31 @@
+<section>
+    <div>
+
+        <div>
+            <nav>
+                <ul>
+                    {{#each show}}
+                    <li><a href="#{{name}}">{{name}}</a></li>
+                    {{/each}}
+                </ul>
+            </nav>
+        </div>
+
+        <div class="flex-container">
+            <h1>10 of my favorite television shows!</h1>
+                
+            {{#each show}}
+            <div class="show">
+                <div class="card" style="width: 90%;" id="{{name}}">
+                    <img class="card-img-top" src="../public/images/{{name}}.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h2 class="card-title">{{name}}</h2>
+                        <p class="card-text">{{summary}}</p>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+                    
+        </div>
+    </div>
+</section>
