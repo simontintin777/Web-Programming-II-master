@@ -48,8 +48,8 @@ Pagination can be done using an external library from NPM, such as react-bootstr
 
 The minimum you must provide for a pagination UI:
 
-If you are on page 0, you will show a button to go to the next page.
-If you are on page 1+, you will show a next button and a previous button, that will take you to the previous page.
+* If you are on page 0, you will show a button to go to the next page.
+* If you are on page 1+, you will show a next button and a previous button, that will take you to the previous page.
 
 ## HTML, Look, and Content
 
@@ -59,8 +59,7 @@ I do, however, recommend using React-Bootstrap  (Links to an external site.)Link
 
 ## General Requirements
 
-Remember to submit your package.json file but not your node_modules folder.
-Remember to run HTML Validator and tota11y tests!
-Remember to have fun with the content.
-Remember to practice usage of async / await!
-Previous Next
+1. Remember to submit your package.json file but not your node_modules folder.
+2. Remember to run HTML Validator and tota11y tests!
+3. Remember to have fun with the content.
+4. Remember to practice usage of async / await!
