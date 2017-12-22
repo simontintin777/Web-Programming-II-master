@@ -16,3 +16,12 @@ React Pokedex
 
 ## lab5 
 Redis
+
+## lab6
+Worker
+
+## lab7
+Socket.io
+
+## lab8
+Technical Stacks
